@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 
 <head>
 	<title>healthy switcher</title>
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221118190809">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221119215349">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -47,21 +47,21 @@
 						<div class="contacts__row">
 							<div class="contacts__item item-contacts">
 								<div class="item-contacts__icon _icon-clock"></div>
-								<span class="item-contacts__arrow"></span>
+								<button class="item-contacts__arrow"></button>
 								<div class="item-contacts__link">Today 10:00 am - 7:00 pm</div>
 								<a href="#" class="item-contacts__description ">Working hours</a>
 							</div>
 
 							<div class="contacts__item item-contacts">
 								<div class="item-contacts__icon _icon-compass"></div>
-								<span class="item-contacts__arrow"></span>
+								<button class="item-contacts__arrow"></button>
 								<a target="_blank" href="#" class="item-contacts__link">Velyka Vasylkivska 100</a>
 								<a target="_blank" href="#" class="item-contacts__description ">Get Directions</a>
 							</div>
 
 							<div class="contacts__item item-contacts">
 								<div class="item-contacts__icon _icon-phone"></div>
-								<span class="item-contacts__arrow"></span>
+								<button class="item-contacts__arrow"></button>
 								<a href="tel:+442587452123" class="item-contacts__link">+442587452123</a>
 								<a href="tel:+442587452123" class="item-contacts__description ">Call Online</a>
 							</div>
@@ -386,7 +386,7 @@
 								</div>
 								<div data-gallery class="item-chefs__gallery gallery">
 									<a href="img/slider/01.jpg" class="gallery__img gallery__img_big">
-										<img src="img/chefs/big img01.jpg" alt="preview">
+										<picture><source srcset="img/chefs/big-img01.webp" type="image/webp"><img src="img/chefs/big-img01.jpg" alt="preview"></picture>
 									</a>
 
 									<a href="img/slider/02.jpg" class="gallery__img">
@@ -413,7 +413,7 @@
 								</div>
 								<div data-gallery class="item-chefs__gallery gallery">
 									<a href="img/slider/01.jpg" class="gallery__img gallery__img_big">
-										<img src="img/chefs/big img02.jpg" alt="preview">
+										<picture><source srcset="img/chefs/big-img02.webp" type="image/webp"><img src="img/chefs/big-img02.jpg" alt="preview"></picture>
 									</a>
 
 									<a href="img/slider/02.jpg" class="gallery__img">
@@ -440,7 +440,7 @@
 								</div>
 								<div data-gallery class="item-chefs__gallery gallery">
 									<a href="img/slider/01.jpg" class="gallery__img gallery__img_big">
-										<img src="img/chefs/big img03.jpg" alt="preview">
+										<picture><source srcset="img/chefs/big-img03.webp" type="image/webp"><img src="img/chefs/big-img03.jpg" alt="preview"></picture>
 									</a>
 
 									<a href="img/slider/02.jpg" class="gallery__img">
@@ -625,7 +625,7 @@
 							<div class="social__card card-social">
 								<div class="card-social__top-row top-row">
 									<div class="top-row__icon-block">
-										<a target="_blank" class="card-social__facebook-icon _icon-facebook share__icon "></a>
+										<a href="#" target="_blank" class="card-social__facebook-icon _icon-facebook share__icon "></a>
 										<div class="card-social__icon-text">Facebook</div>
 									</div>
 									<a target="_blank" href="#" class="top-row__btn">follow us</a>
@@ -640,43 +640,44 @@
 					</div>
 				</div>
 			</section>
-			<footer class="footer">
-				<div class="footer__container">
-					<div class="footer__contacts contacts">
-						<div class="contacts__row">
-							<div class="contacts__item item-contacts">
-								<div class="item-contacts__icon _icon-clock"></div>
-								<span class="item-contacts__arrow"></span>
-								<div class="item-contacts__link">Today 10:00 am - 7:00 pm</div>
-								<a href="#" class="item-contacts__description ">Working hours</a>
-							</div>
-
-							<div class="contacts__item item-contacts">
-								<div class="item-contacts__icon _icon-compass"></div>
-								<span class="item-contacts__arrow"></span>
-								<a target="_blank" href="#" class="item-contacts__link">Velyka Vasylkivska 100</a>
-								<a target="_blank" href="#" class="item-contacts__description ">Get Directions</a>
-							</div>
-
-							<div class="contacts__item item-contacts">
-								<div class="item-contacts__icon _icon-phone"></div>
-								<span class="item-contacts__arrow"></span>
-								<a href="tel:+442587452123" class="item-contacts__link">+442587452123</a>
-								<a href="tel:+442587452123" class="item-contacts__description ">Call Online</a>
-							</div>
+		</main>
+		<footer class="footer">
+			<div class="footer__container">
+				<div class="footer__contacts contacts">
+					<div class="contacts__row">
+						<div class="contacts__item item-contacts">
+							<div class="item-contacts__icon _icon-clock"></div>
+							<button class="item-contacts__arrow"></button>
+							<div class="item-contacts__link">Today 10:00 am - 7:00 pm</div>
+							<a href="#" class="item-contacts__description ">Working hours</a>
 						</div>
-					</div>
-					<div class="footer__bottom-row">
-						<div class="footer__bottom-item">
-							<div class="footer__logo _icon-logo"></div>
-							<p class="footer__txt">© Designed by Yellow Snow. All Rights Reserved. </p>
+
+						<div class="contacts__item item-contacts">
+							<div class="item-contacts__icon _icon-compass"></div>
+							<button class="item-contacts__arrow"></button>
+							<a target="_blank" href="#" class="item-contacts__link">Velyka Vasylkivska 100</a>
+							<a target="_blank" href="#" class="item-contacts__description ">Get Directions</a>
+						</div>
+
+						<div class="contacts__item item-contacts">
+							<div class="item-contacts__icon _icon-phone"></div>
+							<button class="item-contacts__arrow"></button>
+							<a href="tel:+442587452123" class="item-contacts__link">+442587452123</a>
+							<a href="tel:+442587452123" class="item-contacts__description ">Call Online</a>
 						</div>
 					</div>
 				</div>
-			</footer>
+				<div class="footer__bottom-row">
+					<div class="footer__bottom-item">
+						<div class="footer__logo _icon-logo"></div>
+						<p class="footer__txt">© Designed by Yellow Snow. All Rights Reserved. </p>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</div>
-	<!-- 
-<div id="popup" aria-hidden="true" class="popup">
+
+	<!-- <div id="popup" aria-hidden="true" class="popup">
 	<div class="popup__wrapper">
 		<div class="popup__content">
 			<button data-close type="button" class="popup__close">Закрыть</button>
@@ -684,10 +685,10 @@
 			</div>
 		</div>
 	</div>
-</div>
- -->
+</div> -->
 
-	<script src="js/app.min.js?_v=20221118190809"></script>
+
+	<script src="js/app.min.js?_v=20221119215349"></script>
 </body>
 
 </html>
