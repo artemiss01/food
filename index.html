@@ -6,7 +6,7 @@
 	<meta charset="UTF-8">
 	<meta name="format-detection" content="telephone=no">
 	<!-- <style>body{opacity: 0;}</style> -->
-	<link rel="stylesheet" href="css/style.min.css?_v=20221119215349">
+	<link rel="stylesheet" href="css/style.min.css?_v=20221122171738">
 	<link rel="shortcut icon" href="favicon.ico">
 	<!-- <meta name="robots" content="noindex, nofollow"> -->
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -21,10 +21,10 @@
 					<div class="header__menu menu">
 						<nav class="menu__body">
 							<ul class="menu__list">
-								<li data-goto-speed="1000" data-goto=".dishes" class="menu__item"><a href="#" class="menu__link">Menu</a></li>
-								<li data-goto-speed="1000" data-goto=".recipes" class="menu__item"><a href="#" class="menu__link">Recipes</a></li>
-								<li data-goto-speed="1000" data-goto=".chefs" class="menu__item"><a href="#" class="menu__link">Chefs</a></li>
-								<li data-goto-speed="1000" data-goto=".contacts" class="menu__item"><a href="#" class="menu__link menu__link_contacts">Contacts</a></li>
+								<li data-goto-speed="1000" data-goto=".dishes" class="menu__item"><a href="/" class="menu__link">Menu</a></li>
+								<li data-goto-speed="1000" data-goto=".recipes" class="menu__item"><a href="/" class="menu__link">Recipes</a></li>
+								<li data-goto-speed="1000" data-goto=".chefs" class="menu__item"><a href="/" class="menu__link">Chefs</a></li>
+								<li data-goto-speed="1000" data-goto=".contacts" class="menu__item"><a href="/" class="menu__link menu__link_contacts">Contacts</a></li>
 							</ul>
 						</nav>
 					</div>
@@ -80,28 +80,28 @@
 						<div class="about__slider">
 							<div class="about__swiper">
 								<div class="about__slide">
-									<picture><source srcset="img/slider/01.webp" type="image/webp"><img src="img/slider/01.jpg" alt="food"></picture>
+									<picture><source data-srcset="img/slider/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/slider/01.jpg" alt="food"></picture>
 								</div>
 
 								<div class="about__slide">
-									<picture><source srcset="img/slider/02.webp" type="image/webp"><img src="img/slider/02.jpg" alt="food"></picture>
+									<picture><source data-srcset="img/slider/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/slider/02.jpg" alt="food"></picture>
 								</div>
 
 								<div class="about__slide">
-									<picture><source srcset="img/favourite-food-bg.webp" type="image/webp"><img src="img/favourite-food-bg.jpg" alt="food"></picture>
+									<picture><source data-srcset="img/favourite-food-bg.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/favourite-food-bg.jpg" alt="food"></picture>
 								</div>
 
 								<div class="about__slide">
-									<picture><source srcset="img/slider/02.webp" type="image/webp"><img src="img/slider/02.jpg" alt="food"></picture>
+									<picture><source data-srcset="img/slider/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/slider/02.jpg" alt="food"></picture>
 								</div>
 
 								<div class="about__slide">
-									<picture><source srcset="img/slider/03.webp" type="image/webp"><img src="img/slider/03.jpg" alt="food"></picture>
+									<picture><source data-srcset="img/slider/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/slider/03.jpg" alt="food"></picture>
 								</div>
 							</div>
 						</div>
-						<button class="swiper-button-next"></button>
-						<button class="swiper-button-prev"></button>
+						<button class="swiper-button-next" aria-label="next slider"></button>
+						<button class="swiper-button-prev" aria-label="previos slider"></button>
 					</div>
 				</div>
 			</section>
@@ -165,7 +165,7 @@
 										<div class="rating rating_set">
 											<div class="rating__body">
 												<div class="rating__active"></div>
-												<div class="rating__items">
+												<div class="rating__items aria">
 													<input type="radio" class="rating__item" value="1" name="rating">
 													<input type="radio" class="rating__item" value="2" name="rating">
 													<input type="radio" class="rating__item" value="3" name="rating">
@@ -179,18 +179,18 @@
 									</div>
 								</div>
 								<div class="slide-dishes__share share">
-									<div class="share__btn _icon-share"></div>
+									<button class="share__btn _icon-share" aria-label="share in social media"></button>
 									<div class="share__social-media">
-										<a href="#" class="share__icon _icon-facebook"></a>
-										<a href="#" class="share__icon _icon-instagram"></a>
-										<a href="#" class="share__icon _icon-twitter"></a>
+										<a href="#" class="share__icon _icon-facebook" aria-label="link facebook"></a>
+										<a href="#" class="share__icon _icon-instagram" aria-label="link instagram"></a>
+										<a href="#" class="share__icon _icon-twitter" aria-label="link itwitter"></a>
 									</div>
 								</div>
 							</div>
 
 							<div class="dishes__slide slide-dishes">
 								<a href="#" target="_blank" class="slide-dishes__image-ibg">
-									<picture><source srcset="img/dishes/02.webp" type="image/webp"><img src="img/dishes/02.jpg" alt="dishes"></picture>
+									<picture><source data-srcset="img/dishes/02.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/dishes/02.jpg" alt="dishes"></picture>
 								</a>
 								<div class="slide-dishes__body-txt">
 									<a href="#" target="_blank" class="slide-dishes__title">Featured Meal</a>
@@ -214,18 +214,18 @@
 									</div>
 								</div>
 								<div class="slide-dishes__share share">
-									<div class="share__btn _icon-share"></div>
+									<button class="share__btn _icon-share" aria-label="share in social media"></button>
 									<div class="share__social-media">
-										<a href="#" class="share__icon _icon-facebook"></a>
-										<a href="#" class="share__icon _icon-instagram"></a>
-										<a href="#" class="share__icon _icon-twitter"></a>
+										<a href="#" class="share__icon _icon-facebook" aria-label="link facebook"></a>
+										<a href="#" class="share__icon _icon-instagram" aria-label="link instagram"></a>
+										<a href="#" class="share__icon _icon-twitter" aria-label="link itwitter"></a>
 									</div>
 								</div>
 							</div>
 
 							<div class="dishes__slide slide-dishes">
 								<a href="#" target="_blank" class="slide-dishes__image-ibg">
-									<picture><source srcset="img/dishes/03.webp" type="image/webp"><img src="img/dishes/03.jpg" alt="dishes"></picture>
+									<picture><source data-srcset="img/dishes/03.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/dishes/03.jpg" alt="dishes"></picture>
 								</a>
 								<div class="slide-dishes__body-txt">
 									<a href="#" target="_blank" class="slide-dishes__title">Featured Meal</a>
@@ -249,18 +249,18 @@
 									</div>
 								</div>
 								<div class="slide-dishes__share share">
-									<div class="share__btn _icon-share"></div>
+									<button class="share__btn _icon-share" aria-label="share in social media"></button>
 									<div class="share__social-media">
-										<a href="#" class="share__icon _icon-facebook"></a>
-										<a href="#" class="share__icon _icon-instagram"></a>
-										<a href="#" class="share__icon _icon-twitter"></a>
+										<a href="#" class="share__icon _icon-facebook" aria-label="link facebook"></a>
+										<a href="#" class="share__icon _icon-instagram" aria-label="link instagram"></a>
+										<a href="#" class="share__icon _icon-twitter" aria-label="link itwitter"></a>
 									</div>
 								</div>
 							</div>
 
 							<div class="dishes__slide slide-dishes">
 								<a href="#" target="_blank" class="slide-dishes__image-ibg">
-									<picture><source srcset="img/dishes/04.webp" type="image/webp"><img src="img/dishes/04.jpg" alt="dishes"></picture>
+									<picture><source data-srcset="img/dishes/04.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/dishes/04.jpg" alt="dishes"></picture>
 								</a>
 								<div class="slide-dishes__body-txt">
 									<a href="#" target="_blank" class="slide-dishes__title">Featured Meal</a>
@@ -284,18 +284,18 @@
 									</div>
 								</div>
 								<div class="slide-dishes__share share">
-									<div class="share__btn _icon-share"></div>
+									<button class="share__btn _icon-share" aria-label="share in social media"></button>
 									<div class="share__social-media">
-										<a href="#" class="share__icon _icon-facebook"></a>
-										<a href="#" class="share__icon _icon-instagram"></a>
-										<a href="#" class="share__icon _icon-twitter"></a>
+										<a href="#" class="share__icon _icon-facebook" aria-label="link facebook"></a>
+										<a href="#" class="share__icon _icon-instagram" aria-label="link instagram"></a>
+										<a href="#" class="share__icon _icon-twitter" aria-label="link itwitter"></a>
 									</div>
 								</div>
 							</div>
 
 							<div class="dishes__slide slide-dishes">
 								<a href="#" target="_blank" class="slide-dishes__image-ibg">
-									<picture><source srcset="img/dishes/05.webp" type="image/webp"><img src="img/dishes/05.jpg" alt="dishes"></picture>
+									<picture><source data-srcset="img/dishes/05.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/dishes/05.jpg" alt="dishes"></picture>
 								</a>
 								<div class="slide-dishes__body-txt">
 									<a href="#" target="_blank" class="slide-dishes__title">Featured Meal</a>
@@ -319,18 +319,18 @@
 									</div>
 								</div>
 								<div class="slide-dishes__share share">
-									<div class="share__btn _icon-share"></div>
+									<button class="share__btn _icon-share" aria-label="share in social media"></button>
 									<div class="share__social-media">
-										<a href="#" class="share__icon _icon-facebook"></a>
-										<a href="#" class="share__icon _icon-instagram"></a>
-										<a href="#" class="share__icon _icon-twitter"></a>
+										<a href="#" class="share__icon _icon-facebook" aria-label="link facebook"></a>
+										<a href="#" class="share__icon _icon-instagram" aria-label="link instagram"></a>
+										<a href="#" class="share__icon _icon-twitter" aria-label="link itwitter"></a>
 									</div>
 								</div>
 							</div>
 
 							<div class="dishes__slide slide-dishes">
 								<a href="#" target="_blank" class="slide-dishes__image-ibg">
-									<picture><source srcset="img/dishes/06.webp" type="image/webp"><img src="img/dishes/06.jpg" alt="dishes"></picture>
+									<picture><source data-srcset="img/dishes/06.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/dishes/06.jpg" alt="dishes"></picture>
 								</a>
 								<div class="slide-dishes__body-txt">
 									<a href="#" target="_blank" class="slide-dishes__title">Featured Meal</a>
@@ -354,11 +354,11 @@
 									</div>
 								</div>
 								<div class="slide-dishes__share share">
-									<div class="share__btn _icon-share"></div>
+									<button class="share__btn _icon-share" aria-label="share in social media"></button>
 									<div class="share__social-media">
-										<a href="#" class="share__icon _icon-facebook"></a>
-										<a href="#" class="share__icon _icon-instagram"></a>
-										<a href="#" class="share__icon _icon-twitter"></a>
+										<a href="#" class="share__icon _icon-facebook" aria-label="link facebook"></a>
+										<a href="#" class="share__icon _icon-instagram" aria-label="link instagram"></a>
+										<a href="#" class="share__icon _icon-twitter" aria-label="link itwitter"></a>
 									</div>
 								</div>
 							</div>
@@ -466,7 +466,7 @@
 						<div class="row-recipes__item">
 							<div class="row-recipes__card card">
 								<a href="/" class="card__image-ibg">
-									<picture><source srcset="img/01.webp" type="image/webp"><img src="img/01.jpg" alt="breakfast"></picture>
+									<picture><source data-srcset="img/01.webp" srcset="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII=" type="image/webp"><img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAAEAAAABCAQAAAC1HAwCAAAAC0lEQVR42mNkYAAAAAYAAjCB0C8AAAAASUVORK5CYII="  data-src="img/01.jpg" alt="breakfast"></picture>
 								</a>
 								<div class="card__column-row">
 									<div class="card__title">breakfast</div>
@@ -484,7 +484,7 @@
 										</div>
 									</div>
 								</div>
-								<a href="#" class="card__btn _icon--"></a>
+								<button href="#" class="card__btn _icon--" aria-label="back"></button>
 							</div>
 						</div>
 						<div class="row-recipes__item">
@@ -567,7 +567,7 @@
 							<div class="social__card card-social">
 								<div class="card-social__top-row top-row">
 									<div class="top-row__icon-block">
-										<a target="_blank" href="#" class="card-social__twitter-icon _icon-twitter share__icon"></a>
+										<a target="_blank" href="#" class="card-social__twitter-icon _icon-twitter share__icon" aria-label="link twitter"></a>
 										<div class="card-social__icon-text">Twitter</div>
 									</div>
 									<a target="_blank" href="#" class="top-row__btn">follow us</a>
@@ -584,7 +584,7 @@
 							<div class="social__card card-social card-social_average">
 								<div class="card-social__top-row top-row">
 									<div class="top-row__icon-block">
-										<a target="_blank" href="#" class="card-social__instagram-icon _icon-instagram share__icon"></a>
+										<a target="_blank" href="#" class="card-social__instagram-icon _icon-instagram share__icon" aria-label="link instagram "></a>
 										<div class="card-social__icon-text">Instagram</div>
 									</div>
 									<a target="_blank" href="#" class="top-row__btn">follow us</a>
@@ -625,7 +625,7 @@
 							<div class="social__card card-social">
 								<div class="card-social__top-row top-row">
 									<div class="top-row__icon-block">
-										<a href="#" target="_blank" class="card-social__facebook-icon _icon-facebook share__icon "></a>
+										<a href="#" target="_blank" class="card-social__facebook-icon _icon-facebook share__icon" aria-label="link facebook"></a>
 										<div class="card-social__icon-text">Facebook</div>
 									</div>
 									<a target="_blank" href="#" class="top-row__btn">follow us</a>
@@ -676,8 +676,8 @@
 			</div>
 		</footer>
 	</div>
-
-	<!-- <div id="popup" aria-hidden="true" class="popup">
+	<!-- 
+<!-- <div id="popup" aria-hidden="true" class="popup">
 	<div class="popup__wrapper">
 		<div class="popup__content">
 			<button data-close type="button" class="popup__close">Закрыть</button>
@@ -687,8 +687,8 @@
 	</div>
 </div> -->
 
-
-	<script src="js/app.min.js?_v=20221119215349"></script>
+	-->
+	<script src="js/app.min.js?_v=20221122171738"></script>
 </body>
 
 </html>
