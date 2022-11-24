@@ -2187,8 +2187,10 @@ h6 {
 .top-row {
   display: flex;
   justify-content: space-between;
+  flex-wrap: wrap;
   align-items: center;
   column-gap: 0.625rem;
+  row-gap: 0.9375rem;
 }
 .top-row__icon-block {
   display: flex;
@@ -2207,7 +2209,7 @@ h6 {
   color: #737373;
   font-family: "Helvetica Neue Condensed";
   font-size: 0.625rem;
-  line-height: 400%;
+  line-height: 300%;
   text-align: center;
   letter-spacing: 0.2em;
   text-transform: uppercase;
