@@ -9629,7 +9629,7 @@
       new (i(2732))({
         elements_selector: "[data-src]",
         class_loaded: "_lazy-loaded",
-        use_native: !0,
+        use_native: !1,
       });
       let bt = !1;
       setTimeout(() => {
